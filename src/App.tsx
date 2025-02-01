@@ -1,4 +1,3 @@
-/* eslint-disable @typescript-eslint/no-unused-vars */
 import { useEffect, useState } from "react";
 
 export default function App() {
@@ -52,6 +51,7 @@ export default function App() {
         <p className="text-center font-bold italic text-gray-600">
           Feito com muito amor pelo seu amado🤍
         </p>
+        <p className="text-black">{scrollY}</p>
       </section>
       {/* Altura suficiente para scroll */}
       {/* Seção do texto (fixa) */}
